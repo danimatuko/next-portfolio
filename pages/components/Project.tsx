@@ -3,7 +3,9 @@ import React from 'react';
 import { AiOutlineSend } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
 
-const Project = ({ project }) => {
+const Project = (props) => {
+  const project = props?.project;
+  console.log(project);
   return (
     <div className='relative basis-1/3 flex-1'>
       <Image
