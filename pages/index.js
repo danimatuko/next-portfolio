@@ -37,7 +37,7 @@ export default function Home() {
         <meta
           property='og:image'
           itemprop='image'
-          content='/website-preview.png'
+          content='https://res.cloudinary.com/matuko-cloud/image/upload/v1669907816/danimatuko/website-preview_h689kj.png'
         />
 
         <link

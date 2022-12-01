@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
       <div className='mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96'>
         <Image
-          src={avatar}
+          src='https://res.cloudinary.com/matuko-cloud/image/upload/v1669908394/danimatuko/me_nmpyee.png'
           alt='Dani Matuko'
           layout='fill'
           objectFit='contain'
