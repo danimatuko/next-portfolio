@@ -36,6 +36,7 @@ export default function Home() {
         />
         <meta
           property='og:image'
+          itemprop='image'
           content='/website-preview.png'
         />
 
