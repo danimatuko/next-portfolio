@@ -3,7 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { BsGithub } from 'react-icons/bs';
-import avatar from '../../public/me.png';
 
 const Hero = () => {
   return (
@@ -51,6 +50,7 @@ const Hero = () => {
           alt='Dani Matuko'
           layout='fill'
           objectFit='contain'
+          priority
         />
       </div>
     </div>
