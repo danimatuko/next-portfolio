@@ -5,7 +5,7 @@ export const projects: IProject[] = [
     name: 'Topicks',
     description: 'Blog about anything',
     src: 'https://res.cloudinary.com/matuko-cloud/image/upload/v1669908394/danimatuko/topicks_dg4jdl.png',
-    demoURL: 'https://dm-topicks.herokuapp.com/',
+    demoURL: 'https://topicks-client.vercel.app/',
     repoURL: 'https://github.com/danimatuko/topicks',
   },
   {
