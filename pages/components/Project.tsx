@@ -12,10 +12,10 @@ type projectProps = {
 const Project = ({ project }: projectProps) => {
   return (
     <div className='relative basis-1/3 flex-1 mb-8'>
-      <div className='small-screens lg:hidden'>
+      <div className='small-screens lg:hidden dark:text-white'>
         <div className='flex justify-between items-center mb-4'>
           <h3 className='text-3xl'>{project?.name}</h3>
-          <div className='inline-flex gap-2 justify-center'>
+          <div className='inline-flex gap-4 justify-center text-teal-700'>
             <a
               target='_blank'
               rel='noreferrer'
