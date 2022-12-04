@@ -8,13 +8,7 @@ export default function Document() {
           href='https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'
           rel='stylesheet'
         />
-        <link
-          href='/Burtons.otf'
-          rel='preload'
-          as='font'
-          type='font/otf'
-          crossorigin
-        />
+
         <link
           rel='apple-touch-icon'
           sizes='180x180'
