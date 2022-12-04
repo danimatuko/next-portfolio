@@ -20,7 +20,7 @@ export const projects: IProject[] = [
     name: 'Gocamp',
     description: 'eCommerce platform for camping products',
     src: 'https://res.cloudinary.com/matuko-cloud/image/upload/v1669908394/danimatuko/gocamp_ms9qyg.png',
-    demoURL: 'https://app-gocamp.herokuapp.com/',
+    demoURL: 'https://gocamp-client.vercel.app/',
     repoURL: 'https://github.com/danimatuko/gocamp',
   },
   {
