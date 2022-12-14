@@ -20,27 +20,26 @@ const Project = ({ project }: projectProps) => {
               target='_blank'
               rel='noreferrer'
               href={project?.repoURL}
-              className='text-2xl flex justify-center items-center gap-1  border-none rounded-full '>
+              className='text-3xl flex justify-center items-center gap-1  border-none rounded-full '>
               <BsGithub />
-            </a>
-            <a
-              target='_blank'
-              rel='noreferrer'
-              href={project?.demoURL}
-              className='text-2xl inline-flex justify-center items-center gap-1  border-none rounded-full '>
-              <AiOutlineSend />
             </a>
           </div>
         </div>
-        <p className='mb-4'>{project?.description}</p>{' '}
+        <p className='mb-4'>{project?.description}</p>
       </div>
-      <Image
-        className='rounded-lg  object-fill'
-        src={project?.src}
-        alt='project preview'
-        width={600}
-        height={450}
-      />
+      <a
+        target='_blank'
+        rel='noreferrer'
+        href={project?.demoURL}
+        className='text-2xl inline-flex justify-center items-center gap-1  border-none rounded-full'>
+        <Image
+          className='rounded-lg  object-fill'
+          src={project?.src}
+          alt='project preview'
+          width={600}
+          height={450}
+        />{' '}
+      </a>
       <div className='hidden opacity-0 px-16 lg:flex flex-col justify-center items-center absolute top-0 left-0 w-full h-full text-white bg-slate-800 hover:opacity-80  rounded-md transition-all duration-500'>
         <h3 className='text-center text-3xl mb-4'>{project?.name}</h3>
         <p className='mb-4'>{project?.description}</p>
