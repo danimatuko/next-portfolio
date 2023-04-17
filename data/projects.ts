@@ -5,7 +5,7 @@ export const projects: IProject[] = [
     name: "Epicstory",
     description: "This is a PHP blog application powered by MySQL database",
     src: "https://res.cloudinary.com/matuko-cloud/image/upload/v1681727270/danimatuko/epicstory_cc1grn.png",
-    demoURL: "http://epicstory.epizy.com/",
+    demoURL: "https://epicstory.epizy.com/",
     repoURL: "https://github.com/danimatuko/epic-story",
   },
   {
